@@ -19,10 +19,17 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    &_left {
+        color: #ffffff;
+        font-size: 36px;
+        text-align: left;
+    }
 }
 
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
 @import "base/media";

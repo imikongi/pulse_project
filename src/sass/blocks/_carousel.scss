@@ -3,8 +3,12 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
-        margin: 0 auto;
+        max-width: 750px;
+        margin: 0 auto; 
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
     }
     .slick-prev, .slick-next /* применяем одинаковые стили к обеим стрелкам */ {
         position: absolute;
@@ -17,6 +21,28 @@
     .slick-next { /* применяем доп. стиль к правой стрлке, чтобы она отодвинулась вправо и ОТКЛЮЧАЕМ left */
         right: -66px;
         left: auto;
+    }
+
+    .slick-dots {
+       /*  margin-top: 10px; */
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            margin: 0 5px;
+        }
+            button {
+                border-radius: 100%;
+                width: 10px;
+                height: 10px;
+                border: none;
+                font-size: 0;
+            }
+            &:active {
+                color: black;
+            }
+
+
     }
     // .tns-item {
     //     img {

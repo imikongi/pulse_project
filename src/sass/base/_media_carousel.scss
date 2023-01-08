@@ -1,0 +1,9 @@
+@media (max-width: 991px) {
+    .carousel {
+        &__inner {
+            img {
+                width: 85%;
+            }
+        }
+    }
+}

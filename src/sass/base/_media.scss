@@ -87,6 +87,16 @@
     .consultation {
         padding-left: 46px;
     }
+
+    .catalog {
+        .catalog__content{
+            &_active{
+            &:nth-child(2) {
+                justify-content: center;
+            }
+        }
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {

@@ -3,9 +3,9 @@
         &__content {
             justify-content: space-evenly;
         }
-        .catalog-item {
-            width: 295px;
-        }
+    }
+    .catalog-item {
+        width: 295px;
     }
 }
 
@@ -23,26 +23,39 @@
             width: 150px;
             font-size: 15px;
         }
-        .catalog-item {
-            width: 250px;
-            &__subtitle {
-                font-size: 15px;
+    }
+    .catalog-item {
+        width: 250px;
+        &__content {
+            padding-right: 50px;
+            &_active {
+                padding-right: 0;
             }
-            &__descr {
-                font-size: 13px;
             }
-            &__old-price {
-                font-size: 13px;
-            }
-            &__new-price {
-                font-size: 15px;
+        &__subtitle {
+            font-size: 15px;
         }
-        .button_mini {
-            width: 116px;
+        &__descr {
+            font-size: 13px;
+        }
+        &__old-price {
+            font-size: 13px;
+        }
+        &__new-price {
+            font-size: 15px;
+        }
+        &__list {
+            li {
+                font-size: 13px;
+            }
         }
     }
+    .button_mini {
+        width: 116px;
     }
 }
+    
+
 
 @media (max-width: 412px) {
     .catalog {

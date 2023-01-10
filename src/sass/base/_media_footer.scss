@@ -1,0 +1,37 @@
+@media (max-width: 992px) {
+    .footer {
+        height: 600px;
+        &__info {
+            width: 415px;
+            height: 240px;
+            padding-top: 40px;
+        }
+        &__adr {
+            font-size: 19px;
+            margin-bottom: 32px;
+        }
+    }
+}
+
+@media (max-width: 412px) {
+    .footer {
+        &__info {
+            width: 306px;
+            height: 175px;
+            padding-top: 18px;
+        }
+        &__adr {
+            font-size: 15px;
+            margin-bottom: 19px;
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 22px;
+        }
+        &__social-item {
+            font-size: 19px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
